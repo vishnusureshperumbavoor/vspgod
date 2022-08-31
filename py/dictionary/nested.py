@@ -1,0 +1,25 @@
+ct={
+    "vsp":{
+        "tech":"js",
+        "salary":20000
+    },
+    "fathima":{
+        "tech":"python",
+        "salary":40000
+    }
+}
+print(ct)
+
+reshma={
+    "tech":"c++",
+    "salary":50000
+}
+aleena={
+    "tech":"c",
+    "salary":60000
+}
+ct={
+    "reshma":reshma,
+    "aleena":aleena,
+}
+print(ct)
