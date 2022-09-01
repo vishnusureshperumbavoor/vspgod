@@ -7,12 +7,12 @@ else:
 
 while True:
     print(i)
-    if(i==10):
+    i+=2
+    if(i==12):
         print("no do while in python")
         break;
-    i+=2
 
-for i in range(10,16,2):
+for i in range(12,18,2):
     print(i)
 else:
     print("forloop with iteration 2")

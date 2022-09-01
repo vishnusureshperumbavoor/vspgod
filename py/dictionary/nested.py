@@ -9,6 +9,8 @@ ct={
     }
 }
 print(ct)
+print(ct["vsp"])
+print(ct["vsp"]["tech"])
 
 reshma={
     "tech":"c++",
