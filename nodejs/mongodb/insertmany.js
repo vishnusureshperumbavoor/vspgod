@@ -2,7 +2,7 @@ var MongoClient = require("mongodb").MongoClient;
 var url = "mongodb://localhost:27017/";
 MongoClient.connect(url, (err, db) => {
   if (err) throw err;
-  var dbo = db.db("mydb");
+  var dbo = db.db("vsp");
   var myobj = [
     {
       name: "fathima",
@@ -19,6 +19,7 @@ MongoClient.connect(url, (err, db) => {
   ];
   dbo.collection("customers").insertMany(myobj, (err, res) => {
     if (err) throw err;
+    console.log(res);
     console.log(res.insertedCount + " documents inserted");
     db.close();
   });
