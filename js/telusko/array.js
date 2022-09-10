@@ -1,4 +1,3 @@
-// different datatypes, objects and functions can be added in an array
 var arr = [
   24,
   "spacex",
@@ -15,7 +14,6 @@ for (i = 0; i < arr.length; i++) {
 }
 for(n of arr)
     console.log(n);
-arr.forEach((n)=>{
-    console.log(n);
-})
+arr.forEach(data=>console.log(data))
+arr.map(data=>console.log(data))
 arr[3]()

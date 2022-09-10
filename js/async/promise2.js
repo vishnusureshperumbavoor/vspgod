@@ -1,14 +1,12 @@
-setTimeout(iloveyou, 1000);
-function iloveyou() {
+setTimeout(iloveu, 1000);   // callback using function name
+function iloveu() {
   console.log("i love u");
 }
-setTimeout(function ihateu() {
+setTimeout(function iloveu2() { // callback using whole function
   console.log("i love u 2");
 }, 2000);
-function ihateyou(data) {
-  console.log(data);
-}
-const mypromise = new Promise((resolve, reject) => {
+
+new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve("i love u 3");
   }, 3000);

@@ -1,0 +1,12 @@
+{
+  "name": "vsp",
+  "version": "1.0.0",
+  "description": "IMPORTS \r 1. named exports must be destructured \r 2. default exports do not",
+  "main": "default.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type":"module"
+}

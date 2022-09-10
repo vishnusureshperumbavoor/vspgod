@@ -4,4 +4,4 @@ setTimeout(function(){
 function myfunction(value){
     console.log(value);
 }
-// passing the whole function instead of name
+// callback function passed as a whole as an arguement to another fuction instead of name

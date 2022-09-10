@@ -5,7 +5,7 @@ class person:
     def display(s):
         print(s.fname,s.lname)
 
-class student(person):      # dispatched the parent class as a parameter
+class student(person):
     pass
 p = student("vsp","suresh")
 p.display();
@@ -18,6 +18,6 @@ t.display();
 
 class tholvi(person):
     def __init__(s,first,last):
-        super().__init__(first,last)        # super function make child class inherits all methods and properties from patent
+        super().__init__(first,last)
 t = tholvi("asif","pk") 
 t.display()

@@ -1,4 +1,4 @@
-let mypromise = new Promise((resolve,reject)=>{
+new Promise((resolve,reject)=>{
     resolve(successdata);
     reject(errordata);
 }).then(
