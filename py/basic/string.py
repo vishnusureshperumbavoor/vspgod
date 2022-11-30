@@ -4,7 +4,7 @@ without using
 linebrakes vsp
 """
 b="vsp"
-c="god"
+c="Kunnan"
 d=b+c # concatenating 2 words
 print(a)
 print(a[1]) # prints characters
